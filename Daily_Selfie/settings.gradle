@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        maven { url "https://www.jitpack.io" }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Daily_Selfie"
+include ':app'
